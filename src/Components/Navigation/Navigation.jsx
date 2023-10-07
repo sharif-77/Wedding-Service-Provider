@@ -8,10 +8,11 @@ const Navigation = () => {
                 <div>
                     <img className="rounded-full w-24" src="https://i.ibb.co/Y3nmmB0/wedding-logo.jpg" alt="" />
                 </div>
-                <div className="flex gap-5 lg:gap-10 font-bold uppercase">
+                <div className="flex gap-5  font-bold uppercase">
                     <NavLink to='/' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>Home</NavLink>
                     <NavLink to='/about' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>About </NavLink>
                     <NavLink to='/contact' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>Contact</NavLink>
+                    <NavLink to='/gallery' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>Gallery</NavLink>
                     
                    
                 </div>

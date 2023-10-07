@@ -7,6 +7,7 @@ import Contact from "../../pages/Contact/Contact";
 import Login from "../../pages/Login/Login";
 import Register from "../../pages/Register/Register";
 import Details from "../../Components/Details/Details";
+import Gallery from "../../pages/Gallery/Gallery";
 
 const router=createBrowserRouter([
     {
@@ -37,6 +38,10 @@ const router=createBrowserRouter([
             {
                 path:'/details/:id',
                 element:<Details/>
+            },
+            {
+                path:'/gallery',
+                element:<Gallery/>
             },
         ]
     }
