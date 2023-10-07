@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co/NTxgbSY/wedding-photo.jpg",
+    "name": "Photography",
+    "price": 19.99,
+    "description": "Capturing love, joy, and memories in timeless wedding moments through artistic photography.",
+    "details": "Wedding photography is the art of immortalizing the most cherished moments of a couple's special day. It involves capturing raw emotions, genuine smiles, and intricate details that make each wedding unique. Skilled photographers use their expertise to create stunning visual narratives, preserving love stories for generations to come."
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co/7zD9CNg/wed-card.jpg",
+    "name": "Wedding Card Design",
+    "price": 29.99,
+    "description": "Beautiful wedding cards, a token of love and cherished memories.",
+    "details": "Wedding cards are more than just invitations; they're elegant, heartfelt tokens of love and commitment. They set the tone for a joyous celebration, blending aesthetics, emotions, and tradition. Crafted with care, they convey the couple's unique story and invite loved ones to share in their unforgettable journey of love and unity."
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co/Bgsx1r9/cimematography.jpg",
+    "name": "Cimematography",
+    "price": 39.99,
+    "description": "Capturing love stories through cinematic artistry, preserving cherished wedding memories.",
+    "details": "Wedding cinematography is an artistic journey of capturing love's most profound moments. Skilled filmmakers weave emotions, vows, and celebrations into a cinematic masterpiece, immortalizing the couple's unique story. Through expert storytelling and breathtaking visuals, it transforms a wedding day into a timeless, cherished film, rekindling the magic for generations to come."
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co/M2C21ZP/wed-light.jpg",
+    "name": "Lighting",
+    "price": 180.99,
+    "description": "Elegant wedding lighting, illuminating love's beauty, setting the perfect ambiance",
+    "details": "Wedding lighting is the enchanting touch that transforms venues into magical spaces. With carefully placed candles, fairy lights, and spotlights, it enhances the ambiance, creating a romantic and inviting atmosphere. Lighting designers craft a visual symphony that complements the couple's vision, making every moment under the glow unforgettable."
+  },
+  {
+    "id": "5",
+    "image": "https://i.ibb.co/D8LmGD8/palki.jpg",
+    "name": "Palki",
+    "price": 59.99,
+    "description": "Regal wedding palki, carrying love's royalty on a grand procession.",
+    "details": "A wedding palki, a symbol of regal elegance, carries the bride in splendor. Adorned with intricate designs and luxurious fabrics, it adds a touch of grandeur to traditional ceremonies. The palki becomes a throne of love, where the bride makes her majestic entrance, creating a moment of lasting beauty and enchantment."
+  },
+  {
+    "id": "6",
+    "image": "https://i.ibb.co/CBPzzww/wed-sound.jpg",
+    "name": "Sound-System",
+    "price": 69.99,
+    "description": "Wedding sound system, delivering crystal-clear melodies for joyous celebrations.",
+    "details": "A wedding sound system is the heartbeat of musical enchantment at celebrations. With precision and power, it amplifies the love in the air. Skilled technicians ensure crystal-clear melodies, allowing heartfelt vows and joyful tunes to resonate in every corner, uniting guests in the rhythmic harmony of the momentous occasion."
+  }
+]

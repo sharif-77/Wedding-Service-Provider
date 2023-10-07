@@ -5,6 +5,8 @@ import Home from "../../pages/Home/Home";
 import About from "../../pages/About/About";
 import Contact from "../../pages/Contact/Contact";
 import Login from "../../pages/Login/Login";
+import Register from "../../pages/Register/Register";
+import Details from "../../Components/Details/Details";
 
 const router=createBrowserRouter([
     {
@@ -25,8 +27,16 @@ const router=createBrowserRouter([
                 element:<Contact/>
             },
             {
+                path:'/register',
+                element:<Register/>
+            },
+            {
                 path:'/login',
                 element:<Login/>
+            },
+            {
+                path:'/details/:id',
+                element:<Details/>
             },
         ]
     }
