@@ -12,7 +12,7 @@ const Service = ({data}) => {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-2xl">{data.name}</h2>
+          <h2 className="card-title text-2xl min-h-[80px]">{data.name}</h2>
           <p className="min-h-[100px]">{data.description}</p>
           <div className="flex items-center justify-between">
             <div>

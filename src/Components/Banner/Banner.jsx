@@ -7,12 +7,12 @@ const Banner = () => {
 
             <div className="w-4/5 mx-auto py-10 text-white flex items-center justify-center">
             <div className="text-left  space-y-10 ">
-              <h1 className="text-2xl font-bold text-center">Elevate Your Wedding Experience With <span className="text-green-400 text-3xl">Wedding-Services</span></h1>
+              <h1 className="text-2xl font-bold md:text-center">Elevate Your Wedding Experience With <span className="text-green-400 text-3xl">Wedding-Service-Provider</span></h1>
              
               <div className="space-y-1 ">
               <h2 className="text-2xl font-bold">Make Your Wedding More Memorable!</h2>
               <p className="text-xl">
-              <span className="text-2xl text-green-400">Wedding-Services</span>  is one of the best wedding planner in Bangladesh.  In fact, We have two offices in Bangladesh located in Dhaka & Chittagong. From 2008 we started to doing wedding management company. Meanwhile, from our beginning we have done more then 400 wedding event planning, wedding event budgeting etc. We make all the wedding event management customize packages as per our clients requirements and budget. So, all of our clients was happy to get memorable event within their budget.
+              <span className="text-2xl text-green-400 font-bold ">Wedding-Service-Provider</span>  is one of the best wedding planner in Bangladesh.  In fact, We have two offices in Bangladesh located in Dhaka & Chittagong. From 2008 we started to doing wedding management company. Meanwhile, from our beginning we have done more then 400 wedding event planning, wedding event budgeting etc. We make all the wedding event management customize packages as per our clients requirements and budget. So, all of our clients was happy to get memorable event within their budget.
               </p>
               </div>
 

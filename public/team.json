@@ -1,0 +1,33 @@
+[
+    {
+      "image": "https://i.ibb.co/557XKy4/ceo.jpg",
+      "name": "Md.Nadim",
+      "designation": "Ceo"
+    },
+    {
+      "image": "https://i.ibb.co/20rNfHd/director.jpg",
+      "name": "Md.Asad",
+      "designation": "Director"
+    },
+    {
+      "image": "https://i.ibb.co/NrLsdyN/gm.jpg",
+      "name": "Mr.Asif",
+      "designation": "General Manger"
+    },
+    {
+      "image": "https://i.ibb.co/S722zdD/production-manager.jpg",
+      "name": "Mr.Rafsan",
+      "designation": "Production Manager"
+    },
+    {
+      "image": "https://i.ibb.co/3RqqH4b/photo-Grapher.jpg",
+      "name": "Mr.Arif",
+      "designation": "Ptotographer"
+    },
+    {
+      "image": "https://i.ibb.co/dtf5PJF/videoG.jpg",
+      "name": "Mr.Nahid",
+      "designation": "Videographer"
+    }
+  ]
+  

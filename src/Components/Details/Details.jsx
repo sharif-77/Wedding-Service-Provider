@@ -29,15 +29,15 @@ const Details = () => {
         </figure>
         <div className="card-body">
           <h2 className="card-title text-2xl">{data.name}</h2>
-          <p >{data.description}</p>
-          <p className="min-h-[100px]">{data.details}</p>
+          <p  className="text-2xl">{data.description}</p>
+          <p className="min-h-[100px] text-2xl">{data.details}</p>
          
           <div className="flex items-center justify-between">
             <div>
                 <p className="font-bold text-xl"> ${data.price}</p>
             </div>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary font-bold">Add To Cart</button>
+            <Link className="btn btn-primary font-bold">Add To Cart</Link>
           </div>
           </div>
         </div>
