@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### A: `{}` ?
 
-<i>(let greeting) declares  using the let keyword, It initially undefined because no value is assigned to it at this point,(greeting = {}) assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display {} in the console.</i>
+<i>```let greeting``` declares  using the let keyword, It initially undefined because no value is assigned to it at this point,(greeting = {}) assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display {} in the console.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### A:`['🍕', '🍫', '🥑', '🍔']` ?
 
-<i>Write your explanation here</i>
+<i>Arrays and objects in JavaScript are reference types, but the assignment ``info.favoriteFood`` = "🍝" changes the value of the favoriteFood property of the info object, not the food array. Therefore, when we log the food array, it remains unchanged, and we get ["🍕", "🍫", "🥑", "🍔"] as the output.</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### B: `Hi there, undefined` ?
 
-<i>Write your explanation here</i>
+<i>When we call ```sayHi()``` without passing any arguments, the name parameter inside the function will undefined so it will return `Hi there, undefined` .</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### C: 3 ?
 
-<i>Write your explanation here</i>
+<i>Initially Count is 0, ```nums``` Array has four value we iterate over ```nums``` array by ForEach Method Inside the callback function (num) => {...}, we checked if the current num is truthy using the if (num) condition,In JavaScript, 0 is considered falsy, and any non-zero number is considered truthy. So, the if (num) condition will be true for 1, 2, and 3, For each truthy value ```count``` variable is incremented by 1, so for three truthy value ```count``` variable incremented 3 and the result is 3.  </i>
 
 </p>
 </details>
