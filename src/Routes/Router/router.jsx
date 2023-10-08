@@ -8,6 +8,7 @@ import Login from "../../pages/Login/Login";
 import Register from "../../pages/Register/Register";
 import Details from "../../Components/Details/Details";
 import Gallery from "../../pages/Gallery/Gallery";
+import PrivetRoute from "../PrivetRoute/PrivetRoute";
 
 const router=createBrowserRouter([
     {
@@ -41,7 +42,7 @@ const router=createBrowserRouter([
             },
             {
                 path:'/gallery',
-                element:<Gallery/>
+                element:<PrivetRoute><Gallery/></PrivetRoute>
             },
         ]
     }

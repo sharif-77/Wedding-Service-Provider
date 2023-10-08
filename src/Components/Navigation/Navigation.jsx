@@ -27,8 +27,14 @@ const Navigation = () => {
                 </div>
 
                 <div className="flex gap-5  items-center">
-                    <div>
+                    <div className="uppercase font-bold">
+                        {
+                            user?.displayName&&user.displayName
+                        }
+                    </div>
 
+
+                    <div>
                     <div className="avatar">
                     <div className="w-14 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                     <img src={user?.photoURL?user.photoURL:"https://i.ibb.co/s2hVRQm/user.png"} />
@@ -37,11 +43,11 @@ const Navigation = () => {
 
                     </div>
 
-            <div>
-            {
-                user?<button onClick={handleLogOut}  className='hover:bg-[#220032] hover:text-white  py-2 px-5 rounded-md font-bold uppercase' >Logout</button>:<NavLink to='/login' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md font-bold uppercase` }>Login</NavLink>
-            }
-            </div>
+                    <div>
+                    {
+                        user?<button onClick={handleLogOut}  className='hover:bg-[#220032] hover:text-white  py-2 px-5 rounded-md font-bold uppercase' >Logout</button>:<NavLink to='/login' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md font-bold uppercase` }>Login</NavLink>
+                    }
+                    </div>
 
             
 

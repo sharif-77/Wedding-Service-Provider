@@ -16,11 +16,11 @@ const Clients = () => {
       </div>
       <div className="grid grid-cols-1  lg:grid-cols-3 gap-5 mt-5">
         {clients.map((client) => (
-          <div key={client.id} data-aos='fade-left'>
+          <div key={client.id} data-aos='fade-up'>
             <div className="card  bg-base-100 shadow-xl ">
               <figure>
                 <img
-                  className="w-full min-h-[600px] max-h-[600px]  "
+                  className="w-full min-h-[500px] max-h-[500px]  "
                   src={client.image}
                   alt="image"
                 />

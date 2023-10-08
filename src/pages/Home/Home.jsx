@@ -4,6 +4,7 @@ import Services from "../../Components/Services/Services";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import Clients from "../../Components/Clients/Clients";
+import MarriageBenefits from "../../Components/MarriageBenefits/MarriageBenefits";
 
 const Home = () => {
     useEffect(()=>{
@@ -15,10 +16,14 @@ const Home = () => {
           <div >
           <Header/>
           </div>
+
            <div >
            <Services/>
            </div>
-           <div  >
+           <div>
+            <MarriageBenefits/>
+           </div>
+           <div>
             <Clients/>
            </div>
             

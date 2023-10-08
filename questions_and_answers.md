@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### A: `{}` ?
 
-<i>Write your explanation here</i>
+<i>(let greeting) declares  using the let keyword, It initially undefined because no value is assigned to it at this point,(greeting = {}) assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display {} in the console.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### C: `"12"` ?
 
-<i>Write your explanation here</i>
+<i>Javascript is Dynamically typed language,JavaScript allows type coercion, it will attempt to convert the number 1 to a string to make the addition possible, situation of addition js give priority to String. </i>
 
 </p>
 </details>
