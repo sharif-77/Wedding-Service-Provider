@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### A: `{}` ?
 
-<i>```let greeting``` declares  using the let keyword, It initially undefined because no value is assigned to it at this point,(greeting = {}) assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display {} in the console.</i>
+<i>```let greeting``` declares  using the let keyword, It initially undefined because no value is assigned to it at this point,```greeting = {}``` assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display {} in the console.</i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### C: `"12"` ?
 
-<i>Javascript is Dynamically typed language,JavaScript allows type coercion, it will attempt to convert the number 1 to a string to make the addition possible, situation of addition js give priority to String. </i>
+<i>Javascript is Dynamically typed language,JavaScript allows type coercion, it will attempt to convert the number 1 to a string to make the addition possible, situation of addition js give priority to ```String```, on other situation like subtraction, multiplication and division js give priority to ```Number``` type .   </i>
 
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### A:`['🍕', '🍫', '🥑', '🍔']` ?
 
-<i>Arrays and objects in JavaScript are reference types, but the assignment ``info.favoriteFood`` = "🍝" changes the value of the favoriteFood property of the info object, not the food array. Therefore, when we log the food array, it remains unchanged, and we get ["🍕", "🍫", "🥑", "🍔"] as the output.</i>
+<i>Arrays and objects in JavaScript are reference types, but the assignment ``info.favoriteFood`` = "🍝" changes the value of the favoriteFood property of the info object, not the food array. Therefore, when we log the food array, it remains unchanged, and we get ["🍕", "🍫", "🥑", "🍔"] as the output. if we directly change the value of an array or object it will effect the main array or object and if we modify the array or object via other sometimes  it can be changed and sometime  it can't be changed depend on the reference. </i>
 
 </p>
 </details>
@@ -96,7 +96,7 @@ console.log(sayHi());
 
 #### B: `Hi there, undefined` ?
 
-<i>When we call ```sayHi()``` without passing any arguments, the name parameter inside the function will undefined so it will return `Hi there, undefined` .</i>
+<i>When we call ```sayHi()``` without passing any arguments, the name parameter inside the function will undefined so it will return ```Hi there, undefined``` . so avoid  this kind of error always we have to  be careful to provide ```Argument```, or we can set default parameter,using default parameter we can avoid this kind of error. </i>
 
 </p>
 </details>
