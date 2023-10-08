@@ -1,9 +1,12 @@
 
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Register = () => {
+  const {registerUser,update}=useContext(AuthContext)
   const [seePassword, setSeePassword] = useState(false);
 
 
@@ -14,6 +17,31 @@ const Register = () => {
     const email=e.target.email.value;
     const password=e.target.password.value;
     console.log(name,photoUrl,email,password);
+
+
+    if (!/(?=.*[A-Z])(?=.*[@$!%*#?&]).{6,}/.test(password)) {
+      toast.error('Password must have at least 6 characters, one uppercase letter, and one special character');
+      return;
+    }
+    
+
+    registerUser(email,password)
+    .then((res)=>{
+      update(res.user,{
+        displayName:name, photoURL:photoUrl, 
+      })
+      .then(()=>{
+        // toast.success(`Profile Updated`)
+      })
+      .catch()
+      toast.success(`Registration SuccessFull`)
+      console.log(res);
+    })
+    .catch(err=>{
+      toast.error(`${err.message}`)
+    })
+
+
 
 
 

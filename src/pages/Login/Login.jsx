@@ -1,20 +1,30 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AiFillEyeInvisible,AiFillEye } from 'react-icons/ai';
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
+import toast from "react-hot-toast";
 
 
 
 const Login = () => {
+  const {logInUser,}=useContext(AuthContext)
+
     const [seePassword,setSeePassword]=useState(false)
     const navigate=useNavigate()
     const location=useLocation()
-    console.log(location);
 
     const handleLogin =e=>{
         e.preventDefault()
         const email=e.target.email.value;
         const password=e.target.password.value;
-        console.log(email,password);
+
+        logInUser(email,password)
+        .then(()=>{
+            toast.success(`Login SuccessFull`)
+          })
+          .catch(err=>{
+            toast.error(`${err.message}`)
+          })
 
       
 
