@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### A: `{}` ?
 
-<i>```let greeting``` declares  using the let keyword, It initially undefined because no value is assigned to it at this point,```greeting = {}``` assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display ```{}``` in the console. The variable ```let greeting``` count  this```{}``` as a value so it will show  ```{}``` as a result. </i>
+<i>```let greeting``` declares  using the let keyword, It initially undefined because no value is assigned to it at this point,```greeting = {}``` assigns an empty object Now greeting is an object, if prints the value of greeting to the console it will display ```{}``` in the console. The variable ```let greeting``` count  this```{}``` as a value so it will show  ```{}``` as a result. </i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### C: `"12"` ?
 
-<i>Javascript is Dynamically typed language,JavaScript allows type coercion, it will attempt to convert the number 1 to a string to make the addition possible, situation of addition js give priority to ```String```, on other situation like subtraction, multiplication and division js give priority to ```Number``` type .   </i>
+<i>Javascript is Dynamically typed language,JavaScript allows type coercion, it will attempt to convert the number 1 to a string to make the addition possible, situation of addition ```js``` give priority to ```String```, on other situation like subtraction, multiplication and division ```js``` give priority to ```Number``` type .   </i>
 
 </p>
 </details>

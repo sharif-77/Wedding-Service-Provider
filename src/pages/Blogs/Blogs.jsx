@@ -12,7 +12,6 @@ const Blogs = () => {
     }, []);
     return (
         <div className="w-4/5 mx-auto py-20">
-
             <div className="">
                 {
                     clients.map(client=><Blog key={client.id} client={client} />)
