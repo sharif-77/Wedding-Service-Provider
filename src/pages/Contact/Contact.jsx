@@ -1,10 +1,7 @@
-import { useContext } from "react";
 import { FaHome, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 const Contact = () => {
-  const{name}=useContext(AuthContext)
     const handleFormSubmit = e =>{
         e.preventDefault()
     }
@@ -12,7 +9,6 @@ const Contact = () => {
 
   return (
     <div className="w-4/5 mx-auto py-5">
-      <p>Hello Mr.{name}</p>
 
       <main className="flex flex-col  lg:items-start lg:grid grid-cols-12    gap-10 lg:gap-5">
         <div className="col-span-4 space-y-5">
