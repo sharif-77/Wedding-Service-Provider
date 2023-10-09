@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### A: `{}` ?
 
-<i>```let greeting``` declares  using the let keyword, It initially undefined because no value is assigned to it at this point,```greeting = {}``` assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display {} in the console.</i>
+<i>```let greeting``` declares  using the let keyword, It initially undefined because no value is assigned to it at this point,```greeting = {}``` assigns an empty object Now greeting is an object if prints the value of greeting to the console it will display ```{}``` in the console. The variable ```let greeting``` count  this```{}``` as a value so it will show  ```{}``` as a result. </i>
 
 </p>
 </details>
@@ -122,7 +122,7 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### C: 3 ?
+#### C:``` 3 ```?
 
 <i>Initially Count is 0, ```nums``` Array has four value we iterate over ```nums``` array by ForEach Method Inside the callback function (num) => {...}, we checked if the current num is truthy using the if (num) condition,In JavaScript, 0 is considered falsy, and any non-zero number is considered truthy. So, the if (num) condition will be true for 1, 2, and 3, For each truthy value ```count``` variable is incremented by 1, so for three truthy value ```count``` variable incremented 3 and the result is 3.  </i>
 

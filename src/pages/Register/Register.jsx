@@ -1,14 +1,16 @@
 import { useContext, useState } from "react";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import toast from "react-hot-toast";
 import { FcGoogle } from "react-icons/fc";
 
 
 const Register = () => {
-  const { registerUserWithEmailPassword, update,signInWithGoogle } = useContext(AuthContext);
+  const { registerUserWithEmailPassword, update,signInWithGoogle,user,setUser } = useContext(AuthContext);
   const [seePassword, setSeePassword] = useState(false);
+
+  const navigate = useNavigate();
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -32,11 +34,12 @@ const Register = () => {
           photoURL: photoUrl,
         })
           .then(() => {
-            // toast.success(`Profile Updated`)
+            setUser({...user,displayName: name,
+              photoURL: photoUrl,})
           })
           .catch();
         toast.success(`Registration SuccessFull`);
-        console.log(res);
+        navigate('/')
       })
       .catch((err) => {
         toast.error(`${err.message}`);
@@ -47,6 +50,7 @@ const Register = () => {
     signInWithGoogle()
     .then(() => {
       toast.success(`Register SuccessFull`);
+      navigate('/')
     })
     .catch((err) => {
       toast.error(`${err.message}`);

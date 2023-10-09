@@ -11,7 +11,6 @@ const Login = () => {
   const [seePassword, setSeePassword] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-  console.log(location);
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -31,7 +30,7 @@ const Login = () => {
   const handleGoogleLogin =()=>{
     signInWithGoogle()
     .then(() => {
-        toast.success(`Login Success`);
+        toast.success(`Login SuccessFull`);
         navigate(location?.state?location.state:'/')
       })
       .catch((err) => {

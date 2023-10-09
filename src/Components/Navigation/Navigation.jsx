@@ -22,6 +22,7 @@ const Navigation = () => {
                     <NavLink to='/about' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>About </NavLink>
                     <NavLink to='/contact' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>Contact</NavLink>
                     <NavLink to='/gallery' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>Gallery</NavLink>
+                    <NavLink to='/blogs' className={({isActive})=>`${isActive&&`  bg-[#220032] text-white `} py-2 px-5 rounded-md `}>Blog</NavLink>
                     
                    
                 </div>

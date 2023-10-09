@@ -9,6 +9,7 @@ import Register from "../../pages/Register/Register";
 import Details from "../../Components/Details/Details";
 import Gallery from "../../pages/Gallery/Gallery";
 import PrivetRoute from "../PrivetRoute/PrivetRoute";
+import Blogs from "../../pages/Blogs/Blogs";
 
 const router=createBrowserRouter([
     {
@@ -38,11 +39,15 @@ const router=createBrowserRouter([
             },
             {
                 path:'/details/:id',
-                element:<Details/>
+                element:<PrivetRoute><Details/></PrivetRoute>
             },
             {
                 path:'/gallery',
                 element:<PrivetRoute><Gallery/></PrivetRoute>
+            },
+            {
+                path:'/blogs',
+                element:<PrivetRoute><Blogs/></PrivetRoute>
             },
         ]
     }
