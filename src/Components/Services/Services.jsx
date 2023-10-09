@@ -10,7 +10,6 @@ const Services = () => {
             setData(data)
         })
     },[])
-    console.log(data);
     return (
         <div className="w-4/5 mx-auto my-10 ">
             <p className="text-4xl text-center font-bold text-black py-10 uppercase">Our Services</p>
