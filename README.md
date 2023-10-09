@@ -1,6 +1,6 @@
 # Wedding-service-provider
 
-Live link: (https://classroom.github.com/a/ehOGNGkI)
+Live link: [https://classroom.github.com/a/ehOGNGkI]
 
 
 
